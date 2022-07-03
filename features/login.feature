@@ -1,7 +1,8 @@
 Feature: UI Testing Playground
 
 Background: Navigate to home page
-Given the user navigates to the home page
+Given the user navigate to the home page
+
 
 # @TC1
 # Scenario: Test case 1
@@ -20,8 +21,9 @@ Given the user navigates to the home page
 @TC3
 Scenario: Test case 1
 Then the user clicks the "Text Input" link
-Then the user types  "My Input" in the text box
-And the user clicks the button & verifies the button text
+#Then the user types "My Input" in the text box
+Then user types "My Input" in the text box
+Then the user clicks the button & verifies the button text
 
 
 

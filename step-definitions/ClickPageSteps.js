@@ -3,6 +3,7 @@ const { Given, When, Then } = require('@wdio/cucumber-framework');
 const chai = require('chai');
 const assert = chai.assert; 
 
+// Then the user verifies the button color change
 Then("the user verifies the button color change", async() =>{         
 
     const newButton = $(".//button[@class='btn btn-success']");

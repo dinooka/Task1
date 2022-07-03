@@ -140,14 +140,13 @@ exports.config = {
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
         //require: ['./features/step-definitions/steps.js'],
-        require: ['./step-definitions/steps.js'],
-        // require: [
-        //     "./step-definitions/ClickPageSteps.js",
-        //     "./step-definitions/HomePageSteps.js",
-        //     "./step-definitions/TextInputPageSteps.js",
-        //     "./step-definitions/ClientSideDelayPageSteps.js",
-        //     "./step-definitions/steps.js"
-        // ],
+        //require: ['./step-definitions/steps.js'],
+        require: [
+            "./step-definitions/ClickPageSteps.js",
+            "./step-definitions/HomePageSteps.js",
+            "./step-definitions/TextInputPageSteps.js",
+            "./step-definitions/ClientSideDelayPageSteps.js"
+        ],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
@@ -167,7 +166,7 @@ exports.config = {
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
-        ignoreUndefinedDefinitions: false
+        ignoreUndefinedDefinitions: true
     },
     
     //

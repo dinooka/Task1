@@ -8,18 +8,6 @@ const clickPageText = $(".//h3");
 const homePageTitle = $(".//h1");
 
 
-Given("the user navigates to the home page", async() =>{         
-    
-    await browser.url("/");
-    await browser.maximizeWindow();
-
-    var actualHeader = await homePageTitle.getText();
-    var actualHeader = await actualHeader.replace(/(\r\n|\n|\r)/gm, " ");
-
-    assert.equal(actualHeader,"UI Test Automation Playground",'Page header is incorrect');    
-
-});
-
 Then(/^the user clicks the "(.*)" link$/, async (keyword) => {
 
     const clickLink = $(".//a[text()='" + keyword + "']");
@@ -35,4 +23,16 @@ Then(/^the user clicks the "(.*)" Button$/, async (keyword) => {
     const badButton = $(".//button[text()='" + keyword + "']");
     await badButton.click();
     
+});
+
+Given("the user navigate to the home page", async() =>{         
+    
+    await browser.url("/");
+    await browser.maximizeWindow();
+
+    var actualHeader = await homePageTitle.getText();
+    var actualHeader = await actualHeader.replace(/(\r\n|\n|\r)/gm, " ");
+
+    assert.equal(actualHeader,"UI Test Automation Playground",'Page header is incorrect');    
+
 });
