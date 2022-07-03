@@ -1,0 +1,60 @@
+{
+  "uid" : "33d1d711234e16a4",
+  "name" : "Then the user clicks the \"Click\" link",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user clicks the \"Click\" link",
+  "historyId" : "bd617625179ee01b17ac3470dfb4f99e",
+  "time" : {
+    "start" : 1656865846721,
+    "stop" : 1656865847642,
+    "duration" : 921
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user clicks the \"Click\" link"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33d1d711234e16a4.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "429edc47cc5ff56e",
+  "name" : "Given the user navigate to the home page",
+  "time" : {
+    "start" : 1656866231272,
+    "stop" : 1656866233892,
+    "duration" : 2620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b632c6c09c5cf0c",
+  "name" : "Then the user clicks the \"Button That Ignores DOM Click Event\" Button",
+  "time" : {
+    "start" : 1656865974819,
+    "stop" : 1656865974858,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0680cb086a6565c",
+  "name" : "Then the user clicks the \"Client Side Delay\" link",
+  "time" : {
+    "start" : 1656866233892,
+    "stop" : 1656866234634,
+    "duration" : 742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa9605455446ab34",
+  "name" : "Then the user clicks the \"Click\" link",
+  "time" : {
+    "start" : 1656865973900,
+    "stop" : 1656865974819,
+    "duration" : 919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "562a00de6a45a1f0",
+  "name" : "Then the user clicks the \"Text Input\" link",
+  "time" : {
+    "start" : 1656865754582,
+    "stop" : 1656865755487,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c2b291d3e76cb",
+  "name" : "Then the user clicks the \"Button Triggering Client Side Logic\" Button",
+  "time" : {
+    "start" : 1656866234634,
+    "stop" : 1656866234674,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f82910a15139e39",
+  "name" : "Then user types \"My Input\" in the text box",
+  "time" : {
+    "start" : 1656865755487,
+    "stop" : 1656865755574,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f94d5506d0931536",
+  "name" : "",
+  "time" : {
+    "start" : 1656866244718,
+    "stop" : 1656866244719,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bf035086c6a8020",
+  "name" : "Then the user clicks the button & verifies the button text",
+  "time" : {
+    "start" : 1656865755574,
+    "stop" : 1656865755617,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8aa39d69fcfb2de",
+  "name" : "Then the user verifies the \"Data calculated on the client side.\" label",
+  "time" : {
+    "start" : 1656866234674,
+    "stop" : 1656866244717,
+    "duration" : 10043
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "34b285a4d50d46a",
+  "name" : "Then the user verifies the button color change",
+  "time" : {
+    "start" : 1656865974858,
+    "stop" : 1656865974902,
+    "duration" : 44
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,3 +1,4 @@
+const allure = require('allure-commandline');
 exports.config = {
     //
     // ====================
@@ -20,6 +21,12 @@ exports.config = {
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
     //
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+        addConsoleLogs : true,
+    }]],
     specs: [
         './features/*.feature'
     ],
@@ -142,10 +149,10 @@ exports.config = {
         //require: ['./features/step-definitions/steps.js'],
         //require: ['./step-definitions/steps.js'],
         require: [
-            "./step-definitions/ClickPageSteps.js",
-            "./step-definitions/HomePageSteps.js",
-            "./step-definitions/TextInputPageSteps.js",
-            "./step-definitions/ClientSideDelayPageSteps.js"
+            "./StepDefinitions/ClickPageSteps.js",
+            "./StepDefinitions/HomePageSteps.js",
+            "./StepDefinitions/TextInputPageSteps.js",
+            "./StepDefinitions/ClientSideDelayPageSteps.js"
         ],
         // <boolean> show full backtrace for errors
         backtrace: false,
@@ -267,8 +274,12 @@ exports.config = {
      * @param {number}             result.duration  duration of scenario in milliseconds
      * @param {Object}             context          Cucumber World object
      */
-    // afterStep: function (step, scenario, result, context) {
-    // },
+    afterStep: function (step, scenario, { error, duration, passed }, result, context) 
+    {
+        if (error) {
+             browser.takeScreenshot();
+          }
+    },
     /**
      *
      * Runs after a Cucumber Scenario.
@@ -324,8 +335,28 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    
+    onComplete: function(exitCode, config, capabilities, results) 
+    {
+        const reportError = new Error('Could not generate Allure report')
+        const generation = allure(['generate', 'allure-results', '--clean'])
+        return new Promise((resolve, reject) => {
+            const generationTimeout = setTimeout(
+                () => reject(reportError),
+                5000)
+
+            generation.on('exit', function(exitCode) {
+                clearTimeout(generationTimeout)
+
+                if (exitCode !== 0) {
+                    return reject(reportError)
+                }
+
+                console.log('Allure report successfully generated')
+                resolve()
+            })
+        })
+    },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

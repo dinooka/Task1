@@ -1,0 +1,78 @@
+{
+  "uid" : "8f82910a15139e39",
+  "name" : "Then user types \"My Input\" in the text box",
+  "fullName" : "UI Testing Playground: Test case 1.Then user types \"My Input\" in the text box",
+  "historyId" : "769ea821fb4cc61d6cdf5ecb3ff7a780",
+  "time" : {
+    "start" : 1656865755487,
+    "stop" : 1656865755574,
+    "duration" : 87
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then user types \"My Input\" in the text box"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c954d997b56b5eff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865538412,
+        "stop" : 1656865538485,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "13f88b3640943d95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656862095031,
+        "stop" : 1656862095112,
+        "duration" : 81
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f82910a15139e39.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

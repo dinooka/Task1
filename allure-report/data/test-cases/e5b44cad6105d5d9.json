@@ -1,0 +1,80 @@
+{
+  "uid" : "e5b44cad6105d5d9",
+  "name" : "Then the user verifies the button color change",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user verifies the button color change",
+  "historyId" : "9a198f54d3fc8a4643c1cca1b4d7468c",
+  "time" : {
+    "start" : 1656865847681,
+    "stop" : 1656865847728,
+    "duration" : 47
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'",
+  "statusTrace" : "AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'\n                    + expected - actual\n                \n                    -rgba(3,124,235,1)\n                    +rgba(0,123,255,1)\n                \n                    at World.<anonymous> (F:\\VS Code projects\\Webdriverio\\Task 1\\StepDefinitions\\/ClickPageSteps.js:21:12)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'",
+    "statusTrace" : "AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'\n                    + expected - actual\n                \n                    -rgba(3,124,235,1)\n                    +rgba(0,123,255,1)\n                \n                    at World.<anonymous> (F:\\VS Code projects\\Webdriverio\\Task 1\\StepDefinitions\\/ClickPageSteps.js:21:12)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eefe0c19b1455dd5",
+      "name" : "Console Logs",
+      "source" : "eefe0c19b1455dd5.html",
+      "type" : "text/html",
+      "size" : 248
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user verifies the button color change"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5b44cad6105d5d9.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "a6c25a1a47c89b7d",
+  "name" : "Then the user clicks the \"Button That Ignores DOM Click Event\" Button",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user clicks the \"Button That Ignores DOM Click Event\" Button",
+  "historyId" : "16e6ee695b00dbde2d3348dbf331f704",
+  "time" : {
+    "start" : 1656865847642,
+    "stop" : 1656865847681,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user clicks the \"Button That Ignores DOM Click Event\" Button"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6c25a1a47c89b7d.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

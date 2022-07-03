@@ -1,0 +1,78 @@
+{
+  "uid" : "7bf035086c6a8020",
+  "name" : "Then the user clicks the button & verifies the button text",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user clicks the button & verifies the button text",
+  "historyId" : "253071e8088e0cb3cee39815e1667ee4",
+  "time" : {
+    "start" : 1656865755574,
+    "stop" : 1656865755617,
+    "duration" : 43
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user clicks the button & verifies the button text"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57cc619f7d326649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865538485,
+        "stop" : 1656865538522,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "9f69eb1bb5afb914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656862095112,
+        "stop" : 1656862095157,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bf035086c6a8020.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

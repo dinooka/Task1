@@ -1,0 +1,86 @@
+{
+  "uid" : "e8aa39d69fcfb2de",
+  "name" : "Then the user verifies the \"Data calculated on the client side.\" label",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user verifies the \"Data calculated on the client side.\" label",
+  "historyId" : "ff5a697d9cce0e057cc4a8d774241627",
+  "time" : {
+    "start" : 1656866234674,
+    "stop" : 1656866244717,
+    "duration" : 10043
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call getText on element with selector \".//p[@class='bg-success']\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \".//p[@class='bg-success']\" because element wasn't found\n                    at implicitWait (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at Element.wrapCommandFn (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call getText on element with selector \".//p[@class='bg-success']\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \".//p[@class='bg-success']\" because element wasn't found\n                    at implicitWait (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at Element.wrapCommandFn (F:\\VS Code projects\\Webdriverio\\Task 1\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ca55684898205f5",
+      "name" : "Console Logs",
+      "source" : "8ca55684898205f5.html",
+      "type" : "text/html",
+      "size" : 264
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user verifies the \"Data calculated on the client side.\" label"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e8aa39d69fcfb2de.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

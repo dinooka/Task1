@@ -1,0 +1,196 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "UI Testing Playground: Test case 1",
+    "children" : [ {
+      "name" : "Then the user clicks the \"Text Input\" link",
+      "uid" : "562a00de6a45a1f0",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865754582,
+        "stop" : 1656865755487,
+        "duration" : 905
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then user types \"My Input\" in the text box",
+      "uid" : "8f82910a15139e39",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865755487,
+        "stop" : 1656865755574,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user clicks the button & verifies the button text",
+      "uid" : "7bf035086c6a8020",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865755574,
+        "stop" : 1656865755617,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user clicks the \"Click\" link",
+      "uid" : "aa9605455446ab34",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865973900,
+        "stop" : 1656865974819,
+        "duration" : 919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user clicks the \"Button That Ignores DOM Click Event\" Button",
+      "uid" : "5b632c6c09c5cf0c",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656865974819,
+        "stop" : 1656865974858,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user verifies the button color change",
+      "uid" : "34b285a4d50d46a",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1656865974858,
+        "stop" : 1656865974902,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Given the user navigate to the home page",
+      "uid" : "429edc47cc5ff56e",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656866231272,
+        "stop" : 1656866233892,
+        "duration" : 2620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user clicks the \"Client Side Delay\" link",
+      "uid" : "b0680cb086a6565c",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656866233892,
+        "stop" : 1656866234634,
+        "duration" : 742
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user clicks the \"Button Triggering Client Side Logic\" Button",
+      "uid" : "b1c2b291d3e76cb",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656866234634,
+        "stop" : 1656866234674,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Then the user verifies the \"Data calculated on the client side.\" label",
+      "uid" : "e8aa39d69fcfb2de",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656866234674,
+        "stop" : 1656866244717,
+        "duration" : 10043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "",
+      "uid" : "f94d5506d0931536",
+      "parentUid" : "56829b33e1029b798da497cfadfadfdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656866244718,
+        "stop" : 1656866244719,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "56829b33e1029b798da497cfadfadfdb"
+  } ]
+}

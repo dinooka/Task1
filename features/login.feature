@@ -10,20 +10,20 @@ Given the user navigate to the home page
 # Then the user clicks the "Button That Ignores DOM Click Event" Button
 # Then the user verifies the button color change
 
-# @TC2
-# Scenario: Test case 1
-# Then the user clicks the "Client Side Delay" link
-# Then the user clicks the "Button Triggering Client Side Logic" Button
-# # And the user wait for the spinner to disapear
-# Then the user verifies the "Data calculated on the client side." label 
-
-
-@TC3
+@TC2
 Scenario: Test case 1
-Then the user clicks the "Text Input" link
-#Then the user types "My Input" in the text box
-Then user types "My Input" in the text box
-Then the user clicks the button & verifies the button text
+Then the user clicks the "Client Side Delay" link
+Then the user clicks the "Button Triggering Client Side Logic" Button
+# And the user wait for the spinner to disapear
+Then the user verifies the "Data calculated on the client side." label 
+
+
+# @TC3
+# Scenario: Test case 1
+# Then the user clicks the "Text Input" link
+# #Then the user types "My Input" in the text box
+# Then user types "My Input" in the text box
+# Then the user clicks the button & verifies the button text
 
 
 

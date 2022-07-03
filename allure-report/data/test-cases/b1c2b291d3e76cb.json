@@ -1,0 +1,62 @@
+{
+  "uid" : "b1c2b291d3e76cb",
+  "name" : "Then the user clicks the \"Button Triggering Client Side Logic\" Button",
+  "fullName" : "UI Testing Playground: Test case 1.Then the user clicks the \"Button Triggering Client Side Logic\" Button",
+  "historyId" : "d2ae9a3f439bc2e964795250bc861906",
+  "time" : {
+    "start" : 1656866234634,
+    "stop" : 1656866234674,
+    "duration" : 40
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testClass",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user clicks the \"Button Triggering Client Side Logic\" Button"
+  }, {
+    "name" : "package",
+    "value" : "UI Testing Playground: Test case 1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1c2b291d3e76cb.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

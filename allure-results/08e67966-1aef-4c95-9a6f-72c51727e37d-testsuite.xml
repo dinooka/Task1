@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656866231270' stop='1656866244720'>
+    <name>UI Testing Playground: Test case 1</name>
+    <title>UI Testing Playground: Test case 1</title>
+    <test-cases>
+        <test-case start='1656866231270' status='passed' stop='1656866231271'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656866231272' status='passed' stop='1656866233892'>
+            <name>Given the user navigate to the home page</name>
+            <title>Given the user navigate to the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656866233892' status='passed' stop='1656866234634'>
+            <name>Then the user clicks the "Client Side Delay" link</name>
+            <title>Then the user clicks the "Client Side Delay" link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656866234634' status='passed' stop='1656866234674'>
+            <name>Then the user clicks the "Button Triggering Client Side Logic" Button</name>
+            <title>Then the user clicks the "Button Triggering Client Side Logic" Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656866234674' status='broken' stop='1656866244717'>
+            <name>Then the user verifies the "Data calculated on the client side." label</name>
+            <title>Then the user verifies the "Data calculated on the client side." label</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='7e93e41d-922a-4ac5-9c06-234a582b6da2-attachment.html' type='text/html' size='264'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call getText on element with selector ".//p[@class='bg-success']" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector ".//p[@class='bg-success']" because element wasn't found
+                    at implicitWait (F:\VS Code projects\Webdriverio\Task 1\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (F:\VS Code projects\Webdriverio\Task 1\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (F:\VS Code projects\Webdriverio\Task 1\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656866244718' status='passed' stop='1656866244719'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

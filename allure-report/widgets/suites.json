@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "56829b33e1029b798da497cfadfadfdb",
+    "name" : "UI Testing Playground: Test case 1",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

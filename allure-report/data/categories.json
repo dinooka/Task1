@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'",
+      "children" : [ {
+        "name" : "Then the user verifies the button color change",
+        "uid" : "34b285a4d50d46a",
+        "parentUid" : "f9116de877653bf2b75665d083e87220",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656865974858,
+          "stop" : 1656865974902,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "f9116de877653bf2b75665d083e87220"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Can't call getText on element with selector \".//p[@class='bg-success']\" because element wasn't found",
+      "children" : [ {
+        "name" : "Then the user verifies the \"Data calculated on the client side.\" label",
+        "uid" : "e8aa39d69fcfb2de",
+        "parentUid" : "b41441dcee45871f755efb5004705911",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656866234674,
+          "stop" : 1656866244717,
+          "duration" : 10043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "b41441dcee45871f755efb5004705911"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

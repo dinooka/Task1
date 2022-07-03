@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656865843868' stop='1656865847729'>
+    <name>UI Testing Playground: Test case 1</name>
+    <title>UI Testing Playground: Test case 1</title>
+    <test-cases>
+        <test-case start='1656865843868' status='passed' stop='1656865843870'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656865843870' status='passed' stop='1656865846721'>
+            <name>Given the user navigate to the home page</name>
+            <title>Given the user navigate to the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656865846721' status='passed' stop='1656865847642'>
+            <name>Then the user clicks the "Click" link</name>
+            <title>Then the user clicks the "Click" link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656865847642' status='passed' stop='1656865847681'>
+            <name>Then the user clicks the "Button That Ignores DOM Click Event" Button</name>
+            <title>Then the user clicks the "Button That Ignores DOM Click Event" Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1656865847681' status='failed' stop='1656865847728'>
+            <name>Then the user verifies the button color change</name>
+            <title>Then the user verifies the button color change</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='351f1167-8374-41d3-a05a-3336ef0f19fa-attachment.html' type='text/html' size='248'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'</message>
+                <stack-trace>AssertionError: Expected Button color = rgba(0,123,255,1): expected 'rgba(3,124,235,1)' to equal 'rgba(0,123,255,1)'
+                    + expected - actual
+                
+                    -rgba(3,124,235,1)
+                    +rgba(0,123,255,1)
+                
+                    at World.&lt;anonymous> (F:\VS Code projects\Webdriverio\Task 1\StepDefinitions\/ClickPageSteps.js:21:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656865847728' status='passed' stop='1656865847729'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
